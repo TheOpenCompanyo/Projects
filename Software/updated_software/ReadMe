@@ -1,0 +1,18 @@
+This project contains 2 main Python programs that are:
+
+1. Truth table generator: 
+    - Takes input expression and returns its truth table in excel sheet.
+    - Can select serveral files at once to generate truth table for each file.
+    - It creates the output excel file with the same name as that of input file or the default name.
+
+2. MCDC Table generator: Modified Condition/Decision Coverage (MC/DC) is a code coverage criterion commonly used in software testing. For example, DO-178C software development guidance in the aerospace industry requires MC/DC for the most critical software level (DAL A). Code coverage is a way of measuring the effectiveness of your test cases.
+
+    - We can directly input an expression or can select a truth table excel file to convert it to the MC/DC table.
+    - You must see the code of MC/DC conversion which I merged in MCDC software.py file.
+
+3. MCDC software: In recent update, I merged the MC/DC table genereator code to the software code. 
+
+    - Made using PyQT5
+    - Simple and easy to use design.
+    - Interlinking with least time complexity.
+    - Progress bar.

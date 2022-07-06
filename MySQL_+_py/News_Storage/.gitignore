@@ -1,0 +1,9 @@
+**/**.pyc
+.idea
+**/__pycache__
+.DS_Store
+venv
+.venv
+env
+.env
+calculate_date_time.py

@@ -1,0 +1,14 @@
+It is a Telegram Bot which we created as a freelance work.
+
+Aim: To create a bot that can non-stop send specific messages to specific groups/channels in a regular interval of time. The messages must be sent from the users account without him touching the phone.
+
+This Bot does following operations:
+
+1. Validates the identity of user.
+2. Sign in as users profile using telegram API's.
+3. Takes info from the user such as the group names, time interval and message you want to send.
+4. Checks the Authorizations to send a message and start sending it, till its instructed to stop with a simple "/stop" command.
+
+The Folder contains different versions of bot as the bot was modified with major changes.
+
+The bot was hosted on heroku to run non-stop.
